@@ -8,6 +8,10 @@ public class Arithmetic {
         this.a = a;
         this.b = b;
     }
+    
+    public int pow() {
+        return a*a;
+    }
 
     public int add() {
         return a+b;
